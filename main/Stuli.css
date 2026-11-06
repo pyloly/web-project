@@ -1,0 +1,361 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #09090B;
+    color: aliceblue;
+    font-family:"Space Grotesk", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+
+}
+a{
+    color: #e6e6e69a;
+
+}
+header,main,footer{
+    margin: 0 auto;
+    width: 1500px;
+}
+button{
+    background-color: #09090B;
+    border: #09090B ;
+}
+div{
+    font-family:"ABeeZee", Arial, Helvetica, sans-serif;
+    color: #e6e6e69a;
+}
+.header{
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #171719f5;
+    padding-bottom: 0px;
+}
+.part {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    width: 1500px;
+    margin:0 auto;
+}
+.part2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    width: 1500px;
+    margin:0 auto;
+    padding-bottom: 50px;
+}
+.down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family:"Space Grotesk", Arial, Helvetica, sans-serif;
+    color: #e6e6e6fa;
+    letter-spacing: 2px;
+    display: inline-block;
+    position: relative;
+    right: 100px;
+}
+.downimage{
+    width: 33px;
+    height: 33px;
+}
+.links{
+    display: flex;
+    gap: 20px;
+}
+a:hover{
+    color: #e6e6e6fa;
+}
+.hero {
+    background-image: url(../black.png);
+    background-size: contain;
+    object-fit: cover;
+    background-position: center;
+    margin: 400px auto 200px auto;
+    width: 1300px;
+    height: 500px;
+}
+
+.name1 {
+    right: 20px;
+    font-size: 75px;
+    font-family:"Space Grotesk", Arial, Helvetica, sans-serif;
+    color: #e7e7edfa;
+    position: relative;
+    bottom: 75px;
+
+
+}
+.name {
+    left: 30px;
+    font-size: 130px;
+    font-family:"Space Grotesk", Arial, Helvetica, sans-serif;
+    color: rgb(89, 23, 203);
+    position: relative;
+    bottom: 75px;
+}
+
+.va{
+    position: relative;
+    left: 30px;
+    bottom: 30px;
+    width: 750px;
+    text-align: left;
+    color: #e6e6e67a;
+}
+.ha{
+    position: relative;
+    top: 250px;
+    left: 900px;
+}
+.ho{
+    position: relative;
+    top: 400px;
+    left: 1200px;
+}
+.main{
+    
+}
+.hero2{
+    position: relative;
+    bottom: 100px;
+}
+.underhero1{
+    text-align: center;
+    font-size: 20px;
+    font-family:"Space Grotesk", Arial, Helvetica, sans-serif;
+    color: #e6e6e69a;
+}
+.underhero2{
+    text-align: center;
+    font-size: 40px;
+    font-family:"Space Grotesk", Arial, Helvetica, sans-serif;
+    color:blue;
+}
+.underhero3{
+    text-align: center;
+    font-size: 20px;
+    font-family:"ABeeZee", Arial, Helvetica, sans-serif;
+    color: #e6e6e69a;
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 50px;
+}
+.lulu{
+
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+
+}
+.email{
+    background-color: #1717198c;
+    border-radius: 20px;
+    padding: 25px;
+}
+.market{
+    background-color: #1717198c;
+    border-radius: 20px;
+    padding: 25px;
+}
+.keyword{
+    background-color: #1717198c;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+
+.joj{
+    font-size: 15px;
+}
+.line{
+    padding: 5px;
+    padding-bottom: 20px;
+}
+.emai{
+    background-image: url(../Subtr.png);
+    background-size: 100% 100%;
+    bottom: 5px;
+}
+.MAMA{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.DOCHA{
+    background-color: #1717198c;
+    padding-bottom: 40px;  
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.DOCGG {
+    position: relative;
+    bottom: 60px;
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+}
+.yu{
+    margin: 0 auto;
+}
+.joji {
+    font-size: 15px;
+    margin: 0 auto;
+    width: 80%;
+}
+.PAPA {
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+.H3{
+    display: inline-block;
+}
+.TE{
+    margin-bottom: 20px;
+    color: rgba(240, 248, 255, 0.774);
+    font-family: "Space Grotesk";
+    width: 700px;
+}
+.TR{
+    display: inline-block;
+    margin-bottom: 75px;
+}
+.HOHO{
+    position: relative;
+    bottom: 350px;
+    left: 460px;
+}
+.FOF{
+    margin-bottom: 75px;
+}
+
+.FOFO{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.IJ{
+    display:flex;
+    flex-direction: column;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.TETET{
+    text-align: center;
+}
+.H3HHH{
+    text-align: center;
+}
+.LET {
+    margin: 100px auto;
+    width: 1300px;
+}
+
+.L {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    background-color: #1717198c;
+    border-radius: 20px;
+    padding: 60px;
+}
+
+.L-info {
+    width: 50%;
+}
+
+.L-small {
+    text-align: left;
+}
+
+.L-title {
+    font-size: 50px;
+    font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+    color: rgb(89, 23, 203);
+    margin: 10px 0 20px 0;
+}
+
+.L-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.L-contacts div {
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: #e6e6e6fa;
+}
+
+.L-form {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.L-input {
+    background-color: #09090B;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 15px;
+    color: aliceblue;
+    font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    outline: none;
+}
+
+.L-input:focus {
+    border-color: rgb(89, 23, 203);
+}
+
+.L-area {
+    resize: none;
+}
+
+.L-btn {
+    background-color: rgb(89, 23, 203);
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    font-family: "Space Grotesk", Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.L-btn:hover {
+    background-color: rgb(110, 50, 225);
+}
+#topBtn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(89, 23, 203);
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
